@@ -1,0 +1,49 @@
+[workspace]
+members = [
+    "my-candle-core"
+]
+exclude = []
+
+[workspace.package]
+version = "0.1.1"
+edition = "2021"
+description = "Reconstitution Candle ML framework."
+repository = "https://github.com/acproject/myCandle.git"
+keywords = ['blas', 'tensor', 'machine-learning']
+catrgories = ['science']
+license = "Apache-2.0"
+
+[workspace.dependencies]
+accelerate-src = "0.3.2"
+anyhow = {version = "1.0.70", features = ["backtrace"]}
+byteorder = "1.4.3"
+clap = {version = "4.2.4", features = ["derive"]}
+cudarc = {version = "0.9.14", features = ["f16"]}
+
+hf-hub = "0.2.0"
+half = {version = "2.3.1", features = ["num-traits", "use-intrinsics", "rand_distr"]}
+image = {version = "0.24.7" , default-features = false, features = ["jpeg", "png"]}
+intel-mkl-src = {version = "0.8.1", features = ["mkl-static-lp64-iomp"]}
+libc = {version = "0.2.147"}
+log = "0.4.17"
+memmap2 = "0.7.1"
+num_cpus = "1.15.0"
+num-traits = "0.2.15"
+rand = "0.8.5"
+rand_distr = "0.4.3"
+rayon = "1.7.0"
+safetensors = "0.3.1"
+serde = {version = "1.0.171", features = ["derive"]}
+serde_json = "1.0.99"
+thiserror = "1.0.40"
+tokenizer = {version = "0.13.4", default-features = false}
+tracing = "0.1.37"
+tracing-chrome = "0.7.1"
+tracing-subscriber = "0.3.16"
+wav = "1.0.0"
+zip = {version = "0.6.6" ,default-features = false}
+
+[profile.release-with-debug]
+inherits = "release"
+debug = true
+
