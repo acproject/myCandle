@@ -1,6 +1,7 @@
 [workspace]
 members = [
-    "my-candle-core"
+    "my-candle-core",
+    "my-candle-kernels",
 ]
 exclude = []
 
