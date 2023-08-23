@@ -1,14 +1,9 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+pub const AFFINE: &str = include_str!(concat!(env!("out_dir"), "/affine.ptx"));
+pub const BINARY: &str = include_str!(concat!(env!("OUT_DIR"), "/binary.ptx"));
+pub const CAST: &str = include_str!(concat!(env!("OUT_DIR"), "/cast.ptx"));
+pub const CONV: &str = include_str!(concat!(env!("OUT_DIR"), "/conv.ptx"));
+pub const FILL: &str = include_str!(concat!(env!("OUT_DIR"), "/fill.ptx"));
+pub const INDEXING: &str = include_str!(concat!(env!("OUT_DIR"), "/indexing.ptx"));
+pub const REDUCE: &str = include_str!(concat!(env!("OUT_DIR"), "/reduce.ptx"));
+pub const TERNARY: &str = include_str!(concat!(env!("OUT_DIR"), "/ternary.ptx"));
+pub const UNARY: &str = include_str!(concat!(env!("OUT_DIR"), "/unary.ptx"));
