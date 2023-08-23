@@ -1,4 +1,4 @@
-pub const AFFINE: &str = include_str!(concat!(env!("out_dir"), "/affine.ptx"));
+pub const AFFINE: &str = include_str!(concat!(env!("OUT_DIR"), "/affine.ptx"));
 pub const BINARY: &str = include_str!(concat!(env!("OUT_DIR"), "/binary.ptx"));
 pub const CAST: &str = include_str!(concat!(env!("OUT_DIR"), "/cast.ptx"));
 pub const CONV: &str = include_str!(concat!(env!("OUT_DIR"), "/conv.ptx"));
