@@ -1,6 +1,7 @@
 use crate::op::{BinaryOp, Op, ReduceOp, UnaryOp};
 use crate::{Error, Result, Tensor, TensorId};
 use std::collections::HashMap;
+use num_traits::real::Real;
 
 // arg has been reduced to node via reduce_dims, expand it back to arg.
 // This has to handle keepdims.
