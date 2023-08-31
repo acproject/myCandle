@@ -1,3 +1,25 @@
 pub mod cpu;
 pub mod quantized;
+pub mod device;
+pub mod shape;
+pub mod layout;
+pub mod dtype;
+pub mod backend;
+mod error;
+mod storage;
+mod cpu_backend;
+mod cuda_backend;
+mod op;
+mod strided_index;
+mod conv;
+mod utils;
+mod cudnn;
+mod tensor;
+mod convert;
+mod display;
+mod dummy_cuda_backend;
+mod indexer;
+mod mkl;
+mod npy;
+mod variable;
 
