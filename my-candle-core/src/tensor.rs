@@ -13,7 +13,7 @@ use crate::op::{
 use crate::shape::{Dim, Dims, Shape};
 use crate::storage::Storage;
 use crate::dtype::{DType,FloatDType,WithDType};
-use crate::device::Device;
+use crate::device::{Device, NdArray};
 use crate::error::{Error, Result};
 use crate::layout::Layout;
 use std::sync::{Arc, atomic, RwLock};

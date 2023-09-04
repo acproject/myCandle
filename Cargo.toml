@@ -1,9 +1,11 @@
 [workspace]
 members = [
     "my-candle-core",
+    "my-candle-nn",
 ]
 exclude = [
     "my-candle-kernels",
+    "candle-examples",
 ]
 
 [workspace.package]

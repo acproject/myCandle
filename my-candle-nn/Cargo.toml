@@ -1,0 +1,18 @@
+[package]
+name = "my-candle-nn"
+version.workspace = true
+edition.workspace = true
+description.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+license.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+accelerate-src = { workspace = true, optional = true }
+my-candle-core = { path = "../my-candle-core", version = "0.1.1", package = "my-candle-core" }
+thiserror = { workspace = true }
+intel-mkl-src = { workspace = true, optional = true }
+safetensors = { workspace = true }

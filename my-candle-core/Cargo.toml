@@ -13,7 +13,7 @@ readme = "Readme.md"
 [dependencies]
 accelerate-src = { workspace = true, optional = true }
 byteorder = { workspace = true }
-my-candle-kernels = { path = "../my-candle-kernels", version = "0.1.1", optional = true }
+my-candle-kernels = { path = "../my-candle-kernels", version = "0.1.1"}
 cudarc = { workspace = true, optional = true }
 gemm = { workspace = true }
 half = { workspace = true }
@@ -35,7 +35,7 @@ clap = { workspace = true }
 
 [features]
 default = []
-cuda = ["cudarc", "dep:my-candle-kernels"]
-cudnn = ["cuda", "cudarc/cudnn"]
+#cuda = ["cudarc", "my-candle-kernels"]
+#cudnn = ["cuda", "cudarc/cudnn"]
 mkl = ["dep:libc", "dep:intel-mkl-src"]
 accelerate = ["dep:libc", "dep:accelerate-src"]
