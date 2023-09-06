@@ -14,25 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e18d4355-fa9c-4ced-a4e0-54678e087246" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/candle-examples/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candle-examples/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candle-examples/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candle-examples/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candle-examples/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candle-examples/src/bin/basic_optimizer.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candle-examples/src/bin/bert/main.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candle-examples/src/bin/bert/model.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candle-examples/src/bin/mnist_training/main.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-candle-nn/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-candle-nn/src/activation.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-candle-nn/src/conv.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-candle-nn/src/init.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-candle-nn/src/lib.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-candle-nn/src/var_builder.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-candle-core/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/my-candle-core/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-candle-core/src/tensor.rs" beforeDir="false" afterPath="$PROJECT_DIR$/my-candle-core/src/tensor.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-candle-nn/src/embedding.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-candle-nn/src/group_norm.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-candle-nn/src/loss.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-candle-nn/src/ops.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-candle-nn/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/my-candle-nn/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +111,9 @@
       <workItem from="1692793820095" duration="1665000" />
       <workItem from="1693832846613" duration="1712000" />
       <workItem from="1693834664445" duration="5601000" />
-      <workItem from="1693840580593" duration="9000" />
+      <workItem from="1693840580593" duration="182000" />
+      <workItem from="1693840770459" duration="22000" />
+      <workItem from="1694004385903" duration="2954000" />
     </task>
     <servers />
   </component>
