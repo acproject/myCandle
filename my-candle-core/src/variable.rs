@@ -3,7 +3,8 @@ use crate::tensor::Tensor;
 use crate::device::Device;
 use crate::error::{Result, Error};
 use crate::shape::Shape;
-
+/// A variable is a wrapper around a tensor, however variables can have their content modified
+/// whereas tensors are immutable.
 #[derive(Clone, Debug)]
 pub struct Var(Tensor);
 

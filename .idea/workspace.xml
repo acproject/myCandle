@@ -13,12 +13,10 @@
     <cargoProject FILE="$PROJECT_DIR$/candle-examples/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e18d4355-fa9c-4ced-a4e0-54678e087246" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/my-candle-nn/src/embedding.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-candle-nn/src/group_norm.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-candle-nn/src/loss.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-candle-nn/src/ops.rs" afterDir="false" />
+    <list default="true" id="e18d4355-fa9c-4ced-a4e0-54678e087246" name="更改" comment="add nn module tools">
+      <change afterPath="$PROJECT_DIR$/my-candle-nn/src/optim.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-candle-core/src/variable.rs" beforeDir="false" afterPath="$PROJECT_DIR$/my-candle-core/src/variable.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-candle-nn/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/my-candle-nn/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +47,7 @@
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="912ea1b6-c918-4a00-a5a7-6cee55aa1950" />
-        <option name="url" value="https://github.com/acproject/myCandle.git" />
+        <option name="url" value="git@github.com:acproject/myCandle.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -113,8 +111,18 @@
       <workItem from="1693834664445" duration="5601000" />
       <workItem from="1693840580593" duration="182000" />
       <workItem from="1693840770459" duration="22000" />
-      <workItem from="1694004385903" duration="2954000" />
+      <workItem from="1694004385903" duration="3050000" />
+      <workItem from="1694094605555" duration="3254000" />
     </task>
+    <task id="LOCAL-00001" summary="add nn module tools">
+      <option name="closed" value="true" />
+      <created>1694011681411</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694011681411</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,5 +130,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="更改" />
+    <MESSAGE value="add nn module tools" />
+    <option name="LAST_COMMIT_MESSAGE" value="add nn module tools" />
   </component>
 </project>
