@@ -13,10 +13,10 @@
     <cargoProject FILE="$PROJECT_DIR$/candle-examples/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e18d4355-fa9c-4ced-a4e0-54678e087246" name="更改" comment="add nn module tools">
-      <change afterPath="$PROJECT_DIR$/my-candle-nn/src/optim.rs" afterDir="false" />
+    <list default="true" id="e18d4355-fa9c-4ced-a4e0-54678e087246" name="更改" comment="update nn module">
+      <change afterPath="$PROJECT_DIR$/my-candle-nn/src/layer_norm.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-candle-nn/src/linear.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-candle-core/src/variable.rs" beforeDir="false" afterPath="$PROJECT_DIR$/my-candle-core/src/variable.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-candle-nn/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/my-candle-nn/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +78,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/media/qinhangyu/Data1/workspace/myworks/myCandle&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -112,7 +113,16 @@
       <workItem from="1693840580593" duration="182000" />
       <workItem from="1693840770459" duration="22000" />
       <workItem from="1694004385903" duration="3050000" />
-      <workItem from="1694094605555" duration="3254000" />
+      <workItem from="1694094605555" duration="3337000" />
+      <workItem from="1694098047275" duration="599000" />
+      <workItem from="1694313566685" duration="271000" />
+      <workItem from="1694313866220" duration="133000" />
+      <workItem from="1694314032975" duration="8302000" />
+      <workItem from="1694914313359" duration="4000" />
+      <workItem from="1694914339855" duration="503000" />
+      <workItem from="1694917263934" duration="4000" />
+      <workItem from="1694930630813" duration="11000" />
+      <workItem from="1695105166196" duration="3538000" />
     </task>
     <task id="LOCAL-00001" summary="add nn module tools">
       <option name="closed" value="true" />
@@ -122,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694011681411</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update nn module">
+      <option name="closed" value="true" />
+      <created>1694098015911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694098015911</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +150,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="更改" />
     <MESSAGE value="add nn module tools" />
-    <option name="LAST_COMMIT_MESSAGE" value="add nn module tools" />
+    <MESSAGE value="update nn module" />
+    <option name="LAST_COMMIT_MESSAGE" value="update nn module" />
   </component>
 </project>
