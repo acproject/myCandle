@@ -1,0 +1,20 @@
+[package]
+name = "my-candle-transformers"
+version.workspace = true
+edition.workspace = true
+description.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+license.workspace = true
+[dependencies]
+accelerate-src = { workspace = true, optional = true }
+my-candle-core = { path = "../my-candle-core", version = "0.1.1", package = "my-candle-core" }
+thiserror = { workspace = true }
+hf-hub = { workspace = true}
+my-candle-nn = { path = "../my-candle-nn", version = "0.1.1" }
+intel-mkl-src = { workspace = true, optional = true }
+#tokenizers = { workspace = true, features = ["onig"] }
+safetensors = { workspace = true }
+rand = { workspace = true }
+wav = { workspace = true }

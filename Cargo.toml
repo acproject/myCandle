@@ -2,6 +2,7 @@
 members = [
     "my-candle-core",
     "my-candle-nn",
+    "my-candle-transformers"
 ]
 exclude = [
     "my-candle-kernels",
