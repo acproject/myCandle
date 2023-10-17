@@ -7,6 +7,7 @@ members = [
 exclude = [
     "my-candle-kernels",
     "candle-examples",
+    "my-candle-flash-attn",
 ]
 
 [workspace.package]

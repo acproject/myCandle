@@ -14,7 +14,17 @@ thiserror = { workspace = true }
 hf-hub = { workspace = true}
 my-candle-nn = { path = "../my-candle-nn", version = "0.1.1" }
 intel-mkl-src = { workspace = true, optional = true }
-#tokenizers = { workspace = true, features = ["onig"] }
+my-candle-flash-attn = { path = "../my-candle-flash-attn" , version = "0.3.0"}
 safetensors = { workspace = true }
 rand = { workspace = true }
 wav = { workspace = true }
+serde = "1.0.185"
+tracing = { workspace = true }
+
+
+#[features]
+#default = []
+#accelerate = ["dep:accelerate-src", "my-candle-core/accelerate", "my-candle-nn/accelerate"]
+#cuda = ["candle/cuda", "my-candle-nn/cuda"]
+#flash-attn = ["cuda", "dep:candle-flash-attn"]
+#mkl = ["dep:intel-mkl-src", "candle/mkl", "candle-nn/mkl"]

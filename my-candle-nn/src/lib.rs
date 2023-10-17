@@ -19,3 +19,5 @@ pub use layer_norm::{layer_norm, LayerNorm};
 pub use linear::{Linear, linear_no_bias, linear};
 pub use optim::{AdamW, ParamsAdamW, SGD};
 pub use var_builder::{VarBuilder, VarMap};
+
+pub use my_candle_core::Module;

@@ -86,3 +86,39 @@ pub use dummy_cuda_backend::{CudaDevice, CudaStorage};
 
 #[cfg(feature = "mkl")]
 extern crate intel_mkl_src;
+
+#[cfg(feature = "accelerate")]
+extern crate accelerate_src;
+
+
+pub trait ToUsize2 {
+    fn to_usize2(self) -> (usize, usize);
+}
+
+impl ToUsize2 for usize {
+    fn to_usize2(self) -> (usize, usize) {
+        (self, self)
+    }
+}
+
+impl ToUsize2 for (usize, usize) {
+    fn to_usize2(self) -> (usize, usize) {
+        self
+    }
+}
+
+pub trait Module {
+    fn forward(&self, xs: &Tensor) -> Result<Tensor>;
+}
+
+impl Module for quantized::QMatMul {
+    fn forward(&self, xs: &Tensor) -> Result<Tensor> {
+        self.forward(xs)
+    }
+}
+
+impl<T: Fn(&Tensor) -> Result<Tensor>> Module for T {
+    fn forward(&self, xs: &Tensor) -> Result<Tensor> {
+        self(xs)
+    }
+}

@@ -451,6 +451,7 @@ impl Tensor {
     unary_op!(sqrt, Sqrt);
     unary_op!(gelu, Gelu);
     unary_op!(relu, Relu);
+    unary_op!(gelu_erf, GeluErf);
 
     /// Retrieves the single scalar value hold in the tensor. If the tensor contains multiple
     /// dimensions, an error is returned instead.
